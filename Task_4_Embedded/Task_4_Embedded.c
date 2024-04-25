@@ -125,8 +125,9 @@ struct test2{
 };
 int main(){
     struct test1 size1;
-    struct test2 size2;   //changing the order of the members doesn't affect the size of the struct //
-                                   
+    struct test2 size2;   //changing the order of the members doesn't affect the size of the struct 
+                              because size of struct depend on Type of dataTypes // 
+                               
 printf("The size of struct test1: %ld\n",sizeof(struct test1));
 printf("The size of struct test2: %ld\n",sizeof(struct test2));
 
