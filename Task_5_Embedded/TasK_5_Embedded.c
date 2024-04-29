@@ -192,7 +192,7 @@ int main(){
 /*---------------------------------------------END-----------------------------------------------------*/
 
 //Assiement_3//
-/*
+
 #include<stdio.h>
 #define sort_Ascending
 
@@ -257,7 +257,7 @@ void sort_Descending_order(int arr[],int size){
     }
   }
 }
-*/
+
 /*-----------------------------------------------------END-----------------------------------------------*/
 
   /* ******************implement the two operations with the macros-like functions********************* */
@@ -292,4 +292,3 @@ int main (){
   return 0;
 }
 */
-

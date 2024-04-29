@@ -15,7 +15,7 @@ printf("p2 =%p\n",p2);
 printf("p3 =%p\n",p3);
 
 p1++;
-p2++;
+p2++;        //icrease the address of pointer depend on the datatype of pointer//
 p3++;
 
 printf("\n");
@@ -32,34 +32,36 @@ return 0;
 //problem_2
 #include <stdio.h>
 int main(){
-    int num=0xA123BC;
+    int num=0xABCD;
     int *ptr= &num;
-    printf("*ptr: %d \n",*ptr);
+    printf("*ptr: %X \n",*ptr);
 
     //Read Value  & implement in the next line
-    printf("*ptr++: %d\n",*ptr++);
+    printf("*ptr++: %X\n",*ptr++);
 
     // implement in the same line then Read new Value
-    printf("*++ptr: %d\n",*++ptr);
+    printf("*++ptr: %X\n",*++ptr);
 
     //icrement value then Read new Value
-    printf("++*ptr: %d\n",++*ptr);
+    printf("++*ptr: %X\n",++*ptr);
  return 0;
 
 }
 */
+
 /*
 #include <stdio.h>
 int main(){
-    int num=0xA123BC;
+    int num=0xABCD;
     int *ptr= &num;
-    printf("*ptr: %d \n",*ptr);
+    printf("*ptr: %X \n",*ptr);
 
- printf("++*ptr: %d\n",++*ptr);
+ printf("++*ptr: %X\n",++*ptr);
  return 0;
 }
 */
-/*-------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------*/
 
 /*
 //Assiement_2//
@@ -88,7 +90,7 @@ int main(){
     int i,*ptr;
     ptr=&arr[0];
     for (i = 0; i <= 3; i++) {
-        printf("The value of element%d: %d\n",i,*ptr);
+        printf("The value of index %d: %d\n",i,*ptr);
       ptr++;
     }
     return 0;
