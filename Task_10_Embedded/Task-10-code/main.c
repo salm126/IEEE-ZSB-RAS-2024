@@ -26,7 +26,7 @@ char i, scan = 0x01;
 int main(void) {
 	DDRA = 0xFF;
 	DDRC = 0xFF;
-	DDRD = 0xFF;
+	DDRB = 0xFF;
 
 	while (1) {
 		// Display the LED matrix for 1 seconds
